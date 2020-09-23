@@ -5,7 +5,7 @@ Growth mindset means being able to push yourself and keep going. For example say
 
 
 ### **Reminders for growth mind set**
-- _use positive language
-- _keep trying
-- _you can do anything you put your mind to
+- _use positive language_
+- _keep trying_
+- _you can do anything you put your mind to_
 

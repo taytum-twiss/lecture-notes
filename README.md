@@ -4,10 +4,10 @@
 
 # ✍️ Notes
 - What is ES6?
-ES6 is a standardized version of Javascript.
+-ES6 is a standardized version of Javascript.
 
 - When was ES6 released?
-ES6 was released in 2015 and added many powerful features.
+-ES6 was released in 2015 and added many powerful features.
 
 - List 5 new features of ES6.
 -arrow functions: simpler way to create a function 

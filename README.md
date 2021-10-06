@@ -54,6 +54,73 @@
 10. What keyword creates a new instance of a class?
 - the keyword "new"
 
+---
+# App Component
+1. What does the import statement do?
+- Write your answer here...
+
+2. How does React know you are referring to a React component?
+- Write your answer here...
+
+3. What is `<Header />`, `<Main />` and `<Footer />`?
+- Write your answer here...
+
+4. Why must a user-defined component be capitalized?
+- Write your answer here...
+
+5. What is a fragment?
+- Write your answer here...
+
+6. What does the keyword `class` tell us about this App Component?
+- Write your answer here...
+
+7. What does the keyword `extends` do?
+- Write your answer here...
+
+8. What data type is React.Component?
+- Write your answer here...
+
+9. When do you not need to implement a constructor method?
+- Write your answer here...
+
+10. What does `super(props)` do?
+- Write your answer here...
+
+11. What do we know about the state object?
+- Write your answer here...
+
+12. What does `render()` do?
+- Write your answer here...
+
+13. What does `export default` do?
+- Write your answer here...
+
+---
+# JSX Notes 
+1. What is this particular syntax called?
+> `const element = <h1>Hello, world!</h1>;`
+- Write your answer here...
+
+2. What is JSX?
+- Write your answer here...
+
+3. What does React use to render JSX to the DOM?
+- JSX uses react's rendering API called ReactDom.
+
+4. In order to write HTML on multiple lines, what syntax do we need to put the HTML inside of?
+- Write your answer here...
+
+5. What is a "top level element"?
+- Write your answer here...
+
+6. What attribute can we use in JSX to assign a CSS class selector?
+- Write your answer here...
+
+7. With JSX you have to write JavaScript expressions inside of what syntax?
+- Write your answer here...
+
+
+
 ## 📚 Resources 
 - [ES6 Features](http://es6-features.org/#Constants)
 - [W3 Schools: ES6](https://www.w3schools.com/js/js_es6.asp)

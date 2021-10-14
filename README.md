@@ -72,7 +72,7 @@
 - Write your answer here...
 
 6. What does the keyword `class` tell us about this App Component?
-- Write your answer here...
+- It tells us it's an ES6 class.
 
 7. What does the keyword `extends` do?
 - Write your answer here...
@@ -99,25 +99,25 @@
 # JSX Notes 
 1. What is this particular syntax called?
 > `const element = <h1>Hello, world!</h1>;`
-- 
+- The class attribute is a much used attribute in HTML, but since JSX is rendered as JavaScript, and the class keyword is a reserved word in JavaScript, you are not allowed to use it in JSX. JSX solved this by using className instead. When JSX is rendered, it translates className attributes into class attributes.
 
 2. What is JSX?
-- 
+-  JSX allows us to write HTML elements in JavaScript and place them in the DOM without any createElement() and/or appendChild() methods.
 
 3. What does React use to render JSX to the DOM?
 - JSX uses react's rendering API called ReactDom.
 
 4. In order to write HTML on multiple lines, what syntax do we need to put the HTML inside of?
-- 
+- <section>
 
 5. What is a "top level element"?
-- 
+- The HTML code must be wrapped in ONE top level element(parent element), like a fragment
 
 6. What attribute can we use in JSX to assign a CSS class selector?
-- 
+- You use the className answer.
 
 7. With JSX you have to write JavaScript expressions inside of what syntax?
-- 
+- You have to write it in curly brackets
 
 ---
 # Component State Notes 

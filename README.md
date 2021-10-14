@@ -99,60 +99,60 @@
 # JSX Notes 
 1. What is this particular syntax called?
 > `const element = <h1>Hello, world!</h1>;`
-- Write your answer here...
+- 
 
 2. What is JSX?
-- Write your answer here...
+- 
 
 3. What does React use to render JSX to the DOM?
 - JSX uses react's rendering API called ReactDom.
 
 4. In order to write HTML on multiple lines, what syntax do we need to put the HTML inside of?
-- Write your answer here...
+- 
 
 5. What is a "top level element"?
-- Write your answer here...
+- 
 
 6. What attribute can we use in JSX to assign a CSS class selector?
-- Write your answer here...
+- 
 
 7. With JSX you have to write JavaScript expressions inside of what syntax?
-- Write your answer here...
+- 
 
 ---
 # Component State Notes 
 1. Class Components have a built-in object called what?
-- 
+- They have a built in state object.
 
 2. What do you store in the state object?
-- 
+- It's where you store property values that belongs to that particular component.
 
 3. What happens to make the component re-render?
--
+- The state object changes or updates the component re-renders.
 
 4. If your component has a constructor, what needs to be passed to it?
--
+- The props should always be passed to the constructor and also to the React.Component via the super() method.
 
 5. What happens if `super(props)` isn't called?
-- 
+- The state object won't be initialized in the constructor.
 
 6. How many properties can your state object have?
-- 
+- You can have as many properties in the state object as you want.
 
 7. What happens when a value in the state object changes?
-- 
+- The component will re-render, it will output the change according to the new values.
 
 8. What method do you use to update the state object?
-- 
+- Use the setState() method to make changes to state object.
 
 9. What syntax allows us to access to a value in state?
-- 
+- Use this.state.propertyname syntax
 
 10. What does onClick do?
-- 
+-  A button with an onClick event that will update our state properties.
 
 11. What kind of function do we use when defining our custom methods?
--
+- A render function.
 
 
 

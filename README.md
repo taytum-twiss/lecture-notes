@@ -57,43 +57,43 @@
 ---
 # App Component
 1. What does the import statement do?
-- Write your answer here...
+- The static import statement is used to import read only live bindings which are exported by another module.
 
 2. How does React know you are referring to a React component?
-- Write your answer here...
+- To define a React component class, you need to extend React.Component
 
 3. What is `<Header />`, `<Main />` and `<Footer />`?
-- Write your answer here...
+- HTML 
 
 4. Why must a user-defined component be capitalized?
-- Write your answer here...
+- If the component name is not capitalized, React will think it is an HTML tag instead 
 
 5. What is a fragment?
-- Write your answer here...
+- Fragments let you group a list of children without adding extra nodes to the DOM.
 
 6. What does the keyword `class` tell us about this App Component?
 - It tells us it's an ES6 class.
 
 7. What does the keyword `extends` do?
-- Write your answer here...
+- The extends keyword is used to create a class that is a child of another class.
 
 8. What data type is React.Component?
-- Write your answer here...
+- It's a class
 
 9. When do you not need to implement a constructor method?
-- Write your answer here...
+-If you don’t initialize state, you don’t need to implement a constructor for your React component.
 
 10. What does `super(props)` do?
-- Write your answer here...
+- The super keyword is used to access and call functions on an object's parent.
 
 11. What do we know about the state object?
-- Write your answer here...
+-  The state object is where you store property values that belongs to the component.When the state object changes, the component re-renders.
 
 12. What does `render()` do?
-- Write your answer here...
+- The render() method is the only required method in a class component. When called, it should examine this.props and this.state and can return React elements, arrays, strings, numbers, booleans or null
 
 13. What does `export default` do?
-- Write your answer here...
+- The export statement is used when creating JavaScript modules to export live bindings to functions, objects, or primitive values from the module so they can be used by other programs with the import statement.
 
 ---
 # JSX Notes 
@@ -153,6 +153,8 @@
 
 11. What kind of function do we use when defining our custom methods?
 - A render function.
+
+---
 
 
 

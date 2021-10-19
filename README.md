@@ -154,8 +154,47 @@
 11. What kind of function do we use when defining our custom methods?
 - A render function.
 
+  
 ---
+# Props and One Way Data Flow 
+1. What does the term "props" stand for?
+- props stands for properties.
 
+2. What are props in React?
+- Props are arguments passed into React Components. 
+
+3. What are props typically used for in React?
+- They are used to pass data from one component to another.
+
+4. How are props passed to components?
+- Props are passed to components via HTML attributes.
+
+5. What syntax is used to pass props to a component?
+- Props use the same syntax as HTML attributes. 
+
+6. A component will receive props as what kind of data type?
+- A component will receive props as an object.
+
+7. In order to access the data inside of props, what kind of notation should we use?
+- Use dot notation.
+
+8. If we are trying to send a variable in props to a component, what syntax does the variable need to be wrapped in?
+- The variable needs to be wrapped in curly brackets.
+
+9. Can you send a custom method in props to another component?
+- Yes 
+
+10. Where is the most popular place we are going to get values from to send in props to other components?
+- 
+
+11. When accessing a value in props, what syntax do we use?
+-  this.props.propertyName syntax
+  
+12. Can you send props back up to a parent component?
+- 
+
+13. How do you lift state?
+- 
 
 
 ## 📚 Resources 

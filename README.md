@@ -280,3 +280,11 @@
     - 
   
   ---
+ £ How to solve a code challenge 
+  
+ 1. Research that week's method or concept.
+      *What concept or method are we learning about this week?
+      *Look it up on MDN or w3schools.
+      *Search for articles on Medium about the method/topic.
+      *Watch a YouTube video on it.
+      *

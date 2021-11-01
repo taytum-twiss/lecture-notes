@@ -259,28 +259,25 @@
 
 19. What is significant about this line of code?
 `ReactDOM.render(<App />, document.getElementById(‘root’));`
-    - 
+    - It is saying that the App Component has to be loaded into an html element with an id of root. This corresponds with the div element, that has the id of root, in the index.html. We call this a “root” DOM node because everything inside it will be managed by React DOM. Applications built with just React usually have a single root DOM node. To render a React element into a root DOM node, pass both to ReactDOM.render().
 
 20. What is `ReactDOM`?
-    - 
+    - ReactDOM is an API that provides DOM specific methods that can be used at the top level of a web app, to manage those DOM elements. ReactDOM provides the render method and a few others. ReactDOM.render() controls the contents of the container node you pass in.
 
 21. What is a difference between render() and ReactDOM.render()?
-    - 
+    - ReactDOM.render renders your components to the DOM while a component's render returns the elements that make up the component.
 
 22. What is React.StrictMode?
-    - 
+    - Strict mode is a developmental tool and you don't need to worry about it impacting your production build. It is a helper component that will help you write better react components, you can wrap a set of components with <StrictMode /> and it will:
+    - Verify that the components inside are following the recommended practices and warn you if not in the console.
+    - Verify the deprecated methods are not being used, and if they're used strict mode will warn you in the console.
+    - Help you prevent some side effects by identifying potential risks.
 
 23. What can I get rid of when I am ready to start customizing my React application?
-    - 
+    - public/favicon.ico
 
-24. Where can I find build instructions and other helpful React tips?
-    - 
-
-25. How do I close down the React server?
-    - 
-  
   ---
- £ How to solve a code challenge 
+  # How to solve a code challenge 
   
  1. Research that week's method or concept.
       *What concept or method are we learning about this week?
@@ -288,3 +285,33 @@
       *Search for articles on Medium about the method/topic.
       *Watch a YouTube video on it.
       *
+  
+  ---
+ # Array Review 
+1. What is an array in JavaScript?
+   - The JavaScript array is a list-like object.
+  
+2. What syntax do I use to create an array?
+    - const, var, and let 
+  
+3. Is it common practice to use `var`, `let`, or `const` to declare an array?
+    - yes 
+  
+4. Can an array that has been declared with const be reassigned?
+    - 
+5. Can an array that has been declared with const change the elements of the array?
+    -  
+6. Can we use spaces and line breaks between the elements of an array?
+    - 
+7. How do you access an array element?
+    - call the array's name 
+8. What number does an array index start at?
+    - 
+9. Arrays are a special type of ______ in JavaScript.
+    -  
+10. What does "traversal and mutation operations" mean?
+    -  
+11. What does `array.length` do?
+    -  
+12. What does `array.push()` do?
+    - 

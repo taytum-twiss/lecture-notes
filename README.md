@@ -443,5 +443,28 @@ STEP 5: Lastly, we circle back up to STEP 2 and the for loop continues to run un
 11. When do we use a callback function?
   - callback functions can run after another function has finished 
 
+ ---
+  # Intro to array.forEach
+
+1. What is the definition of forEach?
+    - array.forEach allows you to iterate through an array and executes a provided function once for each array element. forEach is more declarative or functional in nature.
   
+2. What data type can you call forEach on?
+    - array.forEach is implemented by as a method on an array.
+   
+3. What does the pseudocode for forEach look like?
+    - array.forEach(callback(currentValue, index, arr), thisValue);
+  
+4. What are the 2 input arguments for forEach?
+    - 
+5. What are the arguments the callback function takes in?
+    -
+6. What is currentValue referring to?
+    -
+7. What is the output of forEach?
+   - 
+8. Does forEach mutate the original array?
+   -
+9. What does it mean when an argument is optional?
+   -
   

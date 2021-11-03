@@ -438,5 +438,10 @@ STEP 4: Then the iterator expression is executed and either increments or decrem
 STEP 5: Lastly, we circle back up to STEP 2 and the for loop continues to run until the condition returns false.
   
 10. What is a callback function?
+  - a callback function is a function passed as an argument to another function. 
   
 11. When do we use a callback function?
+  - callback functions can run after another function has finished 
+
+  
+  

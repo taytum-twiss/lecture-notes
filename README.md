@@ -456,17 +456,25 @@ STEP 5: Lastly, we circle back up to STEP 2 and the for loop continues to run un
     - array.forEach(callback(currentValue, index, arr), thisValue);
   
 4. What are the 2 input arguments for forEach?
-    - 
+    - callback function 
+    - currentValue
+  
 5. What are the arguments the callback function takes in?
-    -
+    - index
+    - array
+    - thisValue
+  
 6. What is currentValue referring to?
-    -
+    - the value of the current element in the array that map is looking at.
+  
 7. What is the output of forEach?
-   - 
+   - undefined 
+  
 8. Does forEach mutate the original array?
-   -
+   - by default for.each doesn't mutate the original array.
+  
 9. What does it mean when an argument is optional?
-   -
+   - An optional argument means that forEach does not care if you pass it a value or not
 ---  
 # ✍️ Intro to Array.map
 

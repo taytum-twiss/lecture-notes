@@ -108,7 +108,7 @@
 - JSX uses react's rendering API called ReactDom.
 
 4. In order to write HTML on multiple lines, what syntax do we need to put the HTML inside of?
-- <section>
+- a section tag
 
 5. What is a "top level element"?
 - The HTML code must be wrapped in ONE top level element(parent element), like a fragment

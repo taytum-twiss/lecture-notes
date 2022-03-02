@@ -519,3 +519,25 @@ STEP 5: Lastly, we circle back up to STEP 2 and the for loop continues to run un
 
 10. What is the only difference between Array.forEach and Array.map?
     * The only difference between forEach and map is that .map() will always return a new array of the same length as the original array comprised of your return values and forEach will always return undefined.
+---
+
+# Functional Programming Reading 
+1. What is functional porgramming?
+    * Functional programming is a way of building the structure/elements that uses mathematical evaluations rather than changing-state.
+2. What is a pure function and how do we know if something is a pure function?
+    * A pure function returns the same result if givent he same arguments. It doesn't cause any observable side effects.
+3. What are the benefits of a pure function?
+    * The benefits of a pure function are that the code becomes easier to test and that creates a more straight foreward code. 
+4. What is immutability?
+    * Immutability means that the data's state cannot change after it has been created. If you need to change the data you must create a new object with a new             value. 
+5. What is Referential transparency?
+    * pure functions + immutable data = referential transparency. 
+6. What is a module?
+    * A module is a split section of code that has a certain functionallity in the application 
+7. What does the word ‘require’ do?
+    * It's a global object that you pass a string through that is required in the file. 
+8. How do we bring another module into the file the we are working in?
+    * You do './' with the name of your module also in your quotations 
+9. What do we have to do to make a module available?
+    * You have to specify which part need to be required and export it 
+
